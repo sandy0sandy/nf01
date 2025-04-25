@@ -1,0 +1,46 @@
+1. X:\kaggleAPI\New folder>git init
+Initialized empty Git repository in X:/kaggleAPI/New folder/.git/
+
+2. X:\kaggleAPI\New folder>git add .
+warning: in the working copy of 'PakistanSuicideAttacks Ver 11 (30-November-2017).csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'PakistanSuicideAttacks Ver 6 (10-October-2017).csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'instruction.ipynb', LF will be replaced by CRLF the next time Git touches it
+
+3. X:\kaggleAPI\New folder>git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   PakistanSuicideAttacks Ver 11 (30-November-2017).csv
+        new file:   PakistanSuicideAttacks Ver 6 (10-October-2017).csv
+        new file:   a.ipynb
+        new file:   instruction.ipynb
+        new file:   pakistansuicideattacks.zip
+
+
+4. X:\kaggleAPI\New folder>git commit -m 'PushingCode'
+[main (root-commit) b945a17] 'PushingCode'
+ 5 files changed, 1335 insertions(+)
+ create mode 100644 PakistanSuicideAttacks Ver 11 (30-November-2017).csv
+ create mode 100644 PakistanSuicideAttacks Ver 6 (10-October-2017).csv
+ create mode 100644 a.ipynb
+ create mode 100644 instruction.ipynb
+ create mode 100644 pakistansuicideattacks.zip
+
+5. X:\kaggleAPI\New folder>git remote add origin https://github.com/sandy0sandy/newfolder.git
+
+6. X:\kaggleAPI\New folder>git push -u origin main
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (7/7), 102.60 KiB | 279.00 KiB/s, done.
+Total 7 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/sandy0sandy/newfolder.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+X:\kaggleAPI\New folder>
